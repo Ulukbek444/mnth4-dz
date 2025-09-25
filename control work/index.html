@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Делегирование событий</title>
+  <style>
+    #square {
+      width: 100px;
+      height: 100px;
+      background-color: steelblue;
+      margin-right: 10px;
+    }
+    .container {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    #counter {
+      font-size: 48px;
+      font-weight: bold;
+      margin: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<div>
+  <button>red</button>
+  <button>green</button>
+  <button>blue</button>
+  <button>yellow</button>
+  <button>purple</button>
+</div>
+
+<div class="container">
+  <div id="square"></div>
+  <button id="toggleBtn">Скрыть</button>
+</div>
+
+<div id="counter">0</div>
+</body>
+<script src="add.js"></script>
+</html>
